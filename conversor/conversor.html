@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moeda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Raff Simple Tools</h1>
+        <a href="../home/index.html">Voltar</a>
+    </header>
+    <div class="content">
+        <div class="converter">
+            <label for="usdRate">Cotação do Dólar:</label>
+            <input type="text" id="usdRate" placeholder="Insira a cotação do dólar (ex: 5.25)">
+
+            <label for="euroRate">Cotação do Euro:</label>
+            <input type="text" id="euroRate" placeholder="Insira a cotação do euro (ex: 6.15)">
+
+            <label for="amount">Valor em Reais:</label>
+            <input type="text" id="amount" placeholder="Insira o valor em reais (ex: 100.00)">
+
+            <button id="convertToUSD">Converter para Dólar</button>
+            <button id="convertToEuro">Converter para Euro</button>
+
+            <div id="result">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

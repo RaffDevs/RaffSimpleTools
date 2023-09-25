@@ -1,0 +1,79 @@
+body {
+    background-color: #282a36;
+    color: #f8f8f2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    /* Evita a barra de rolagem */
+}
+
+header {
+    background-color: #44475a;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    /* Faz o conteúdo ocupar todo o espaço disponível na vertical */
+    overflow: hidden;
+    /* Evita o overflow na vertical */
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    max-width: 800px;
+    width: 90%;
+    /* Ajuste a largura conforme desejado */
+    padding: 20px;
+    box-sizing: border-box;
+    /* Inclui preenchimento na largura total */
+    margin: 0 auto;
+    /* Centraliza o grid horizontalmente */
+    overflow: hidden;
+    /* Evita o overflow na horizontal */
+}
+
+.card {
+    background-color: #6272a4;
+    padding: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    text-align: center;
+    padding-top: 100%;
+    /* Proporção quadrada */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+h2 {
+    font-size: 18px;
+    margin: 0;
+}
+
+/* Use media query para tornar os cartões maiores em telas menores */
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
