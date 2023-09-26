@@ -41,3 +41,7 @@ function calcResult() {
         resultShown = true;
     }
 }
+
+document.getElementById("backbutton").addEventListener("click", () => {
+    window.history.back();
+});

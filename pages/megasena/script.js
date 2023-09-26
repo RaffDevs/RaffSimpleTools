@@ -23,3 +23,6 @@ function fillBalls() {
 }
 
 document.getElementById('generateNumbers').addEventListener('click', fillBalls);
+document.getElementById("backbutton").addEventListener("click", () => {
+    window.history.back();
+});

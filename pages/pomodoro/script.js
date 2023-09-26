@@ -7,6 +7,10 @@ const pauseButton = document.getElementById('pause');
 const resetButton = document.getElementById('reset');
 const timerInput = document.getElementById('timer');
 
+document.getElementById("backbutton").addEventListener("click", () => {
+    window.history.back();
+});
+
 function startTimer() {
     startButton.disabled = true;
     pauseButton.disabled = false;

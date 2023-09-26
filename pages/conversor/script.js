@@ -39,3 +39,7 @@ document.getElementById('convertToEuro').addEventListener('click', function () {
 
     document.getElementById('result').textContent = `${amount.toFixed(2)} reais equivalem a ${convertedAmount.toFixed(2)} euros.`;
 });
+
+document.getElementById("backbutton").addEventListener("click", () => {
+    window.history.back();
+});
