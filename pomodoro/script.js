@@ -1,5 +1,5 @@
 let timerInterval;
-let remainingTime = 1500; // Tempo inicial em segundos (25 minutos)
+let remainingTime = 1500;
 
 const timerDisplay = document.getElementById('timerDisplay');
 const startButton = document.getElementById('start');

@@ -5,9 +5,7 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    /* Para empilhar elementos verticalmente */
     align-items: center;
-    /* Para centralizar horizontalmente */
     min-height: 100vh;
     overflow: hidden;
 }
@@ -30,7 +28,6 @@ header {
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     margin-top: 20px;
-    /* Espaçamento entre o cabeçalho e a calculadora */
 }
 
 .display input {

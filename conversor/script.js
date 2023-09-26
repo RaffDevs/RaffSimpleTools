@@ -1,12 +1,9 @@
 function applyCurrencyMask(input) {
     input.addEventListener('input', function () {
-        // Remove caracteres não numéricos
         const numericValue = this.value.replace(/\D/g, '');
 
-        // Formata para duas casas decimais
         const formattedValue = (parseFloat(numericValue) / 100).toFixed(2);
 
-        // Atualiza o valor no campo
         this.value = formattedValue;
     });
 }

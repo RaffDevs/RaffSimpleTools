@@ -1,5 +1,5 @@
 function generateRandomNumber() {
-    return Math.floor(Math.random() * 60) + 1; // Gera números de 1 a 60
+    return Math.floor(Math.random() * 60) + 1;
 }
 
 function generateUniqueNumbers() {

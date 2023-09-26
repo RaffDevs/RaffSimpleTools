@@ -11,7 +11,7 @@ function clearDisplay() {
     resultShown = false;
 }
 
-function appendToDisplay(value) {
+function setOnDisplay(value) {
     if (resultShown) {
         clearDisplay();
     }
@@ -24,7 +24,7 @@ function appendToDisplay(value) {
     document.getElementById('result').value = currentInput;
 }
 
-function calculateResult() {
+function calcResult() {
     if (resultShown) {
         return;
     }
