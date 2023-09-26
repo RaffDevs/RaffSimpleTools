@@ -1,15 +1,15 @@
 document.getElementById("calculator").addEventListener("click", () => {
-    window.location.href = "../calculator/calculator.html";
+    window.location.href = "./pages/calculator/calculator.html";
 });
 
 document.getElementById("lottery").addEventListener("click", () => {
-    window.location.href = "../megasena/megasena.html";
+    window.location.href = "./pages/megasena/megasena.html";
 });
 
 document.getElementById("converter").addEventListener("click", () => {
-    window.location.href = "../conversor/conversor.html";
+    window.location.href = "./pages/conversor/conversor.html";
 });
 
 document.getElementById("pomodoro").addEventListener("click", () => {
-    window.location.href = "../pomodoro/pomodoro.html";
+    window.location.href = "./pages/pomodoro/pomodoro.html";
 });

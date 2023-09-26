@@ -11,21 +11,6 @@ body {
     overflow: hidden;
 }
 
-.cyan {
-    background-color: #8be9fd;
-}
-
-.green {
-    background-color: #50fa7b;
-}
-
-.purple {
-    background-color: #bd93f9;
-}
-
-.red {
-    background-color: #ff5555;
-}
 
 header {
     background-color: #44475a;
@@ -38,6 +23,11 @@ h1 {
     font-size: 24px;
     margin: 0;
     color: white;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 0;
 }
 
 .container {
@@ -73,10 +63,23 @@ h1 {
     transform: translateY(-5px);
 }
 
-h2 {
-    font-size: 18px;
-    margin: 0;
+.cyan {
+    background-color: #8be9fd;
 }
+
+.green {
+    background-color: #50fa7b;
+}
+
+.purple {
+    background-color: #bd93f9;
+}
+
+.red {
+    background-color: #ff5555;
+}
+
+
 
 @media (max-width: 768px) {
     .grid {

@@ -21,6 +21,23 @@ h1 {
     color: white;
 }
 
+
+button {
+    background-color: #6272a4;
+    color: #f8f8f2;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #bd93f9;
+    color: #44475a;
+}
+
 .content {
     display: flex;
     flex-direction: column;
@@ -50,20 +67,4 @@ h1 {
     justify-content: center;
     align-items: center;
     margin: 5px;
-}
-
-button {
-    background-color: #6272a4;
-    color: #f8f8f2;
-    border: none;
-    border-radius: 4px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    margin-top: 20px;
-}
-
-button:hover {
-    background-color: #bd93f9;
-    color: #44475a;
 }
