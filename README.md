@@ -52,11 +52,11 @@ O que eu recomendaria seria usar a extensão **Go Live** do VsCode (caso esteja 
 * **.grid**: ```Classe criada para aplicar o Grid-Layout do Css. Nessa classe, crio um Grid 2x2 (2 colunas e 2 linhas), além de configurar tamanho máximo dos elementos, espaçamento interno e etc.```
 * **.card**: ```Classe criada para criar um card onde será apresentado as opções de ferramentas. Nessa classe configuro espaçamento interno, arredondamento de bordas, comportamento do cursos, transição e alinhamento de texto.```
 * **.card:hover**: ```Classe criada para adicionar a animações do deslocamento do card para 5 pixels acima quando o cursor do mouse se posicionar em cima do elemento.```
-* **.cyan: ```Classe criada para adicionar a cor cyan no backgroud```
-* **.green: ```Classe criada para adicionar a cor green no backgroud```
-* **.purple: ```Classe criada para adicionar a cor purple no backgroud```
-* **.red: ```Classe criada para adicionar a cor red no backgroud```
-* **@media: ```Funcionalidade css conhecida como Media Query que tem por função para alterar layout baseado em tamanhos de telas e dispositivos.```
+* **.cyan**: ```Classe criada para adicionar a cor cyan no backgroud```
+* **.green**: ```Classe criada para adicionar a cor green no backgroud```
+* **.purple**: ```Classe criada para adicionar a cor purple no backgroud```
+* **.red**: ```Classe criada para adicionar a cor red no backgroud```
+* **@media**: ```Funcionalidade css conhecida como Media Query que tem por função para alterar layout baseado em tamanhos de telas e dispositivos.```
 
 ### Calculator:
 * **body**: ```Seletor da tag Body, onde configuro propriedades do corpo da página como cor de background, alinhamento dos elementos, fonte e etc...```
